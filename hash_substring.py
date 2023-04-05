@@ -1,7 +1,5 @@
 def read_input():    
-    print("File type input")
     inputType = input()
-    print("Input type: " + inputType[:1])
     if(inputType[:1] == "F"):
         # Assume the only test file is 06 and it is in the tests/ directory
         fileName = "tests/06"
